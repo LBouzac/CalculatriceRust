@@ -9,7 +9,7 @@ fn main() {
     // Options de configuration de la fenêtre
     let options = eframe::NativeOptions {
         viewport: egui::ViewportBuilder::default()
-            .with_inner_size([180.0, 310.0]),
+            .with_inner_size([300.0, 400.0]),
         ..Default::default()
     };
 
